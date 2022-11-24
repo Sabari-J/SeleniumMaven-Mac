@@ -17,8 +17,6 @@ public class Elements extends login {
 		Thread.sleep(3000);
 		WebElement elementsTab = driver.findElement(By.xpath("//h5[.= 'Elements']"));
 		System.out.println(elementsTab.isDisplayed());
-
-		
 		
 		scrollToElement(elementsTab);
 		elementsTab.click();
